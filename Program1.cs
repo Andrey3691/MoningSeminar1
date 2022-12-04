@@ -16,10 +16,3 @@ Console.WriteLine($"New version of a nuber {randNum} is {newNum}");
 
 // Случайное число из отрезка от 10 до 99 и показывает наибольшую цифру числа.
 
-int GutNumber(int num)
-{
-    int ed = num % 10;
-    int des = num / 10;
-
-    int result = des >= ed
-}
