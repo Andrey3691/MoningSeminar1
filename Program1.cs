@@ -28,3 +28,26 @@ int randNum = new Random().Next(10,100);
 int newNum = Rand(randNum);
     Console.WriteLine($"Random Number: {randNum} is nixt number: {newNum}");
 */
+
+// Напишите программу которая на входе принимает число и проверяет, кратно ли оно одновременно a и b.
+
+Console.WriteLine(("Запросить число"));
+int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(("Кратно первому"));
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(("Кратно второму"));
+int b = Convert.ToInt32(Console.ReadLine());
+
+void Rand(int num, int a, int b)
+{
+    if(num % a ==0 && num % b ==0)
+    {
+        Console.WriteLine("Число равно двум");
+    }
+    else
+    {
+        Console.WriteLine("Не кратно");
+    }
+
+}
+Rand(num, a, b);
