@@ -30,7 +30,7 @@ int newNum = Rand(randNum);
 */
 
 // Напишите программу которая на входе принимает число и проверяет, кратно ли оно одновременно a и b.
-
+/*
 Console.WriteLine(("Запросить число"));
 int num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(("Кратно первому"));
@@ -51,3 +51,4 @@ void Rand(int num, int a, int b)
 
 }
 Rand(num, a, b);
+*/
