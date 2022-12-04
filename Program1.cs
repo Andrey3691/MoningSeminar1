@@ -15,7 +15,7 @@ Console.WriteLine($"New version of a nuber {randNum} is {newNum}");
 */
 
 // Случайное число из отрезка от 10 до 99 и показывает наибольшую цифру числа.
-
+/*
 int Rand(int num)
 {
     int ed = num % 10;
@@ -27,3 +27,4 @@ int Rand(int num)
 int randNum = new Random().Next(10,100);
 int newNum = Rand(randNum);
     Console.WriteLine($"Random Number: {randNum} is nixt number: {newNum}");
+*/
