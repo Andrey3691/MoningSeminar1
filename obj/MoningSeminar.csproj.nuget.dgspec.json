@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar\\MoningSeminar.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar1\\MoningSeminar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar\\MoningSeminar.csproj": {
+    "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar1\\MoningSeminar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar\\MoningSeminar.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar1\\MoningSeminar.csproj",
         "projectName": "MoningSeminar",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar\\MoningSeminar.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar1\\MoningSeminar.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Рабочий стол\\MoningSeminar1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

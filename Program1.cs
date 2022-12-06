@@ -52,3 +52,25 @@ void Rand(int num, int a, int b)
 }
 Rand(num, a, b);
 */
+
+// Напишите программу, котрая на входе принимает 2 числа и проверяет, является ли одно число квадратом другого.
+/*
+Console.WriteLine(("Запросить число"));
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(("Запросить число"));
+int num2 = Convert.ToInt32(Console.ReadLine());
+
+bool Kvadrat(int num1, int num2)
+{
+    if(num1 * num1 == num2 || num2 * num2 == num1)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+bool result = Kvadrat(num1, num2);
+Console.WriteLine(($"Результат проверки: {result}"));
+*/
