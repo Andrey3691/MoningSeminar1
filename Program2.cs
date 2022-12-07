@@ -17,7 +17,7 @@ Console.WriteLine($"The point A {xA},{yA} is on the {qadNum} qadRand");
 */
 
 
-
+/*
 int GetCoordinates(int quadrant)
 {
     if(quadrant == 1) Console.WriteLine("x>0, y>0");
@@ -31,3 +31,4 @@ Console.WriteLine("Input number is the quadrant: ");
 int quadrantPoits = Convert.ToInt32(Console.ReadLine());
 
 GetCoordinates(quadrantPoits);
+*/
