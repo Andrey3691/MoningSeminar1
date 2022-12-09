@@ -48,7 +48,7 @@ int quadrantPoits = Convert.ToInt32(Console.ReadLine());
 GetCoordinates(quadrantPoits);
 */
 
-
+/*
 double Distance(double xA, double yA, double xB, double yB)
 {
     double Lingh = Math.Sqrt(Math.Pow(xB - xA, 2) + Math.Pow(yB - yA, 2));
@@ -69,4 +69,4 @@ double yB = Convert.ToDouble(Console.ReadLine());
 double distanceBetweenAB = Distance(xA, xB, yA, yB);
 
 Console.WriteLine("Distance Between points A and B is {distanceBetweenAB}.");
-
+*/
