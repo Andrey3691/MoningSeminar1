@@ -70,3 +70,21 @@ double distanceBetweenAB = Distance(xA, xB, yA, yB);
 
 Console.WriteLine("Distance Between points A and B is {distanceBetweenAB}.");
 */
+
+/*
+void Squares(int number)
+{
+    int counter = 1;
+    while(counter <= number)
+    {
+    Console.Write($"Math.Pow{counter, 2}");   
+    if(counter != number) Console.Write(", ");
+    counter ++;
+    }
+}
+Console.WriteLine("Input an integer number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("The series of squares of numbers:");
+Squares(num);
+*/
