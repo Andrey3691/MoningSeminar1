@@ -77,7 +77,7 @@ void Squares(int number)
     int counter = 1;
     while(counter <= number)
     {
-    Console.Write($"Math.Pow{counter, 2}");   
+    Console.Write(Math.Pow(counter, 2));
     if(counter != number) Console.Write(", ");
     counter ++;
     }
@@ -94,32 +94,28 @@ Squares(num);
 
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
-double Distance(double xA, double yA, double zA, double xB, double yB, double zB)
+/*
+int x1 = Coordinate("x", "A");
+int y1 = Coordinate("y", "A");
+int z1 = Coordinate("z", "A");
+int x2 = Coordinate("x", "B");
+int y2 = Coordinate("y", "B");
+int z2 = Coordinate("z", "B");
+
+int Coordinate(string coorName, string pointName)
 {
-    double Lingh = Math.Sqrt(Math.Pow(xB - xA, 2) + Math.Pow(yB - yA, 2) + Math.Pow(zB - zA, 2));
-    return Math.Round(Lingh, 2);
+    Console.Write($"Введите координату {coorName} точки {pointName}: ");
+    return Convert.ToInt16(Console.ReadLine());
 }
-Console.WriteLine("Input an x-coordonate of point A: ");
-double xA = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Input an y-coordonate of point A: ");
-double yA = Convert.ToDouble(Console.ReadLine());
+double Decision(double x1, double x2, double y1, double y2, double z1, double z2)
+{
+  return Math.Sqrt(Math.Pow((x2-x1), 2) + Math.Pow((y2-y1), 2) + Math.Pow((z2-z1), 2));
+}
 
-Console.WriteLine("Input an z-coordonate of point A: ");
-double zA = Convert.ToDouble(Console.ReadLine());
+double segmentLength =  Math.Round (Decision(x1, x2, y1, y2, z1, z2), 2 );
 
-Console.WriteLine("Input an x-coordonate of point B: ");
-double xB = Convert.ToDouble(Console.ReadLine());
-
-Console.WriteLine("Input an y-coordonate of point B: ");
-double yB = Convert.ToDouble(Console.ReadLine());
-
-Console.WriteLine("Input an z-coordonate of point B: ");
-double zB = Convert.ToDouble(Console.ReadLine());
-
-double distanceBetweenAB = Distance(xA, xB, zA, yA, yB, zB);
-
-Console.WriteLine("Distance Between points A B Z is {distanceBetweenABZ}.");
-
+Console.WriteLine($"Длина отрезка  {segmentLength}");
+*/
 
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
