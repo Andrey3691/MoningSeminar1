@@ -165,3 +165,21 @@ int[] arry = new int[cube+1];
 Cube(arry);
 PrintArry(arry);
 */
+
+// Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
+/*
+int NumOfdigits(int num)
+{
+    int count = 0;
+    while(num != 0)
+    {
+        count ++;
+        num /= 10; // num = num / 10;
+    }
+    return count;
+}
+Console.Write("Input a Number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int result = NumOfdigits(number);
+Console.WriteLine($"Number of digits in {number} is {result}");
+*/
