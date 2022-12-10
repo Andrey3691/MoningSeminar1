@@ -201,3 +201,20 @@ int number = Convert.ToInt32(Console.ReadLine());
 int result = SunOfNums(number);
 Console.WriteLine($"Sum of number from 1 to A {result}.");
 */
+// Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N.
+/*
+int Factorial(int num)
+{
+  int fact = 1;
+  while(num > 1)
+  {
+    fact *= num;
+    num --;
+  }
+  return fact;
+}
+Console.Write("Input an intereg number N: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int result = Factorial(number);
+Console.WriteLine($"Factorial of number N is {result}.");
+*/
