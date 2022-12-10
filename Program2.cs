@@ -138,7 +138,7 @@ Console.WriteLine($"Длина отрезка  {segmentLength}");
 */
 
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-
+/*
 Console.Write("Введите число: ");
 int cube = Convert.ToInt32(Console.ReadLine());
 void Cube(int[] cube)
@@ -164,3 +164,4 @@ void PrintArry(int[] coll)
 int[] arry = new int[cube+1];
 Cube(arry);
 PrintArry(arry);
+*/
