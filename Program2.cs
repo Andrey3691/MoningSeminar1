@@ -183,3 +183,21 @@ int number = Convert.ToInt32(Console.ReadLine());
 int result = NumOfdigits(number);
 Console.WriteLine($"Number of digits in {number} is {result}");
 */
+
+// Напишите программу, которая принимает на вход число (А) и выдаёт сумму чисел от 1 до А.
+/*
+int SunOfNums(int num)
+{
+    int sum = 1;
+    while(num > 1)
+    {
+        sum += num;
+        num ++;
+    }
+    return sum;
+}
+Console.Write("Input an intereg number A: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int result = SunOfNums(number);
+Console.WriteLine($"Sum of number from 1 to A {result}.");
+*/
