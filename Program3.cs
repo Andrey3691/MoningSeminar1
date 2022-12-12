@@ -56,7 +56,7 @@ Console.WriteLine($"Factorial of number N is {result}.");
 /*
 
 // Масивы
-
+/*
 int [] CreateRandomArray(int size, int minValue, int maxVolue)
 {
     int[] array = new int [size];
@@ -82,3 +82,4 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int [] myArray = CreateRandomArray (size, min, max);
 ShowArray(myArray);
+*/
