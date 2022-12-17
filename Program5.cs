@@ -1,4 +1,5 @@
 // Семинар Крок 6
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -16,7 +17,7 @@ void ShowArray( int[] array)
     }
     Console.WriteLine();
 }
-
+*/
 // Задача1: Напишите программу, которая перевернёт одномерный массив (последний элемент будет на первом месте, а первый - на последнем и т.д.)
 /*
 void ReverseArray(int[] array)
