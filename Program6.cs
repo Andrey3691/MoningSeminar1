@@ -1,3 +1,4 @@
+// Семинар Урок 7
 // Задайте двумерный массив размером m×n, заполненный случайными целыми числами.
 /*
 int [,] CreateRandom2dArray(int rows, int columns, int minVolue, int maxVolue)
@@ -145,7 +146,7 @@ for (int i = 0; i < array.GetLength(0); i++)
  }
  */
 // Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
-
+/*
 Console.WriteLine("Введите размер матрицы:");
     int N = int.Parse(Console.ReadLine()!);
     int M = int.Parse(Console.ReadLine()!);
@@ -176,4 +177,4 @@ Console.WriteLine("Введите размер матрицы:");
                 
         Console.WriteLine(elem/M);
     }
- 
+*/
