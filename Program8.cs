@@ -54,3 +54,12 @@ int numB = Convert.ToInt32(Console.ReadLine());
 double der = Degree(numA, numB);
 Console.WriteLine($"{numA} raised to the power of {numB} is equal to {der}");
 */
+/*
+double Power(int basic, int degree)
+{
+    if(degree > 0) return Power(basic, degree - 1) * basic;
+    else if(degree < 0) return Power(basic, degree + 1) / basic;
+    else return 1; 
+}
+Console.WriteLine(Power(2, 3));
+*/
