@@ -398,3 +398,44 @@ void CreateArray(int[,,] array3D)
   }
 }
 */
+// Напишите программу, которая заполнит спирально массив 4 на 4.
+/*
+void Spiral<T>(T[,] arr)
+{
+  int n = arr.GetLength(0);
+  int count = n; 
+  int value = -n;
+  int sum = -1;
+  do
+  {
+      value = -1 * value / n;
+      for (int i = 0; i < count; i++)
+      {
+          sum += value;
+          Console.Write(arr[sum / n, sum % n] + " ");
+      }
+      value *= n;
+      count--;
+      for (int i = 0; i < count; i++)
+      {
+          sum += value;
+          Console.Write(arr[sum / n, sum % n] + " ");
+      }
+  } 
+  while (count > 0);
+}
+void Main()
+{
+  var strArr = new string[4, 4];
+  for (int i = 0; i < 4; i++)
+    for (int j = 0; j < 4; j++)
+      strArr[i, j] = Console.ReadLine()!; // Здесь вводим символы
+      Spiral(strArr);
+      Console.WriteLine();
+  var intArr = new int[4, 4];
+  for (int i = 0; i < 4; i++)
+    for (int j = 0; j < 4; j++)
+  intArr[i, j] = int.Parse(Console.ReadLine()!); // Здесь вводим цифры
+  Spiral(intArr);
+}
+*/
