@@ -75,3 +75,14 @@ void ShowNums(int n)
 }
 ShowNums(15);
 */
+//  Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
+/*
+int m, n, s=0;
+Console.Write("Введи значение от M: ");
+m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введи значение до N: ");
+n = Convert.ToInt32(Console.ReadLine());
+for (int i = m; i <= n; i++)
+    s += i;
+Console.WriteLine(s);
+*/
