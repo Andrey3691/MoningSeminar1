@@ -63,3 +63,15 @@ double Power(int basic, int degree)
 }
 Console.WriteLine(Power(2, 3));
 */
+// Задайте значение N. Напишите программу, которая выведет все натуральные числа в промежутке от N до 1. Выполнить с помощью рекурсии.
+/*
+void ShowNums(int n)
+{
+    if (n > 0)
+    {
+        Console.Write("{0} ", n);
+        ShowNums(n - 1);
+    }
+}
+ShowNums(15);
+*/
